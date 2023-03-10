@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="images/images/favicon.ico">
+    <script src="https://kit.fontawesome.com/9217d97eca.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- HOME SECTION -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/images/Logomain.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a>
+                    <li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h1>Hi, I'm <span>Prajwal</span> <br> Kale From JSPM</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/images/MeOrg.png" alt="My Photo">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto maxime amet dignissimos vitae
+                        minima, ipsa ut similique dolore! Dolore ratione dicta, saepe veritatis ab laudantium molestiae
+                        laboriosam nisi, aut libero rem sunt, tenetur eos id commodi architecto enim voluptates
+                        labore.libero rem sunt, tenetur eos id commodi architecto enim voluptates labore.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('qualification')">Qualification</p>
+                        <p class="tab-links" onclick="opentab('extras')">Extras</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Developer</span><br>Developing Websites</li>
+                            <li><span>Java Developer</span><br>OOP Concepts</li>
+                            <li><span>DBMS</span><br>Maintaining Databases</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="qualification">
+                        <ul>
+                            <li><span>FE Computer</span><br>SGPA:9.70</li>
+                            <li><span>SE Computer</span><br>SGPA:8.07</li>
+                            <li><span>TE Computer</span><br>Currently Pursuing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="extras">
+                        <ul>
+                            <li><span>Compitetive Coding</span><br>Solving Different Problems</li>
+                            <li><span>Graphics</span><br>Designing Images</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Services----------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam eius libero eaque eum.
+                        Molestiae iusto nam </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-java"></i>
+                    <h2>Java Developer</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam eius libero eaque eum.
+                        Molestiae iusto nam </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>Competitive Coder</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam eius libero eaque eum.
+                        Molestiae iusto nam.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------Portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">MyWork</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images/work-1.png">
+                    <div class="layer">
+                        <h3>Project-1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, natus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/work-2.png">
+                    <div class="layer">
+                        <h3>Project-2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, natus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/images/work-3.png">
+                    <div class="layer">
+                        <h3>Project-3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, natus!</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ---------Contact---------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> prajwalkale075@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 9623087019</p>
+                    <div class="social-icons">
+                        <a class="instagram" href="https://www.instagram.com/prajwal_kale_07/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="linkedin" href="https://www.linkedin.com/in/prajwal-kale-126343246/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a class="github" href="https://github.com/prajwalk6739" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="facebook" href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                <a href="images/images/Resume Kale Prajwal Dadaso.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Kale Prajwal <i class="fa-solid fa-star"></i></p>
+        </div>
+    </div>
+<!-- 1.28.41 -->
+
+</body>
+<!-- <script src="index.js"></script> -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</html>
